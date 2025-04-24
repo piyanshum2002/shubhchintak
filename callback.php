@@ -27,9 +27,9 @@ $message3 = "";
 
 // database details
 $host = "localhost";
-      $username = "u688193508_shubhchintak";
-      $password = "Shubhchintak@7";
-      $dbname = "u688193508_backend_data";
+      $username = "";
+      $password = "";
+      $dbname = "";
 
 // creating a connection
 $con = mysqli_connect($host, $username, $password, $dbname);
@@ -60,7 +60,7 @@ if ($rs) {
             $mail->Host       = 'smtp.hostinger.com';                     //Set the SMTP server to send through
             $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
             $mail->Username   = 'info@shubhchintak.org.in';                     //SMTP username
-            $mail->Password   = 'Bhardwaj@subhchintak#77';                               //SMTP password
+            $mail->Password   = '';                               //SMTP password
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
             $mail->Port       = 465;                                          //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
@@ -94,7 +94,7 @@ if ($rs) {
             $mail->Host       = 'smtp.hostinger.com';                     //Set the SMTP server to send through
             $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
             $mail->Username   = 'info@shubhchintak.org.in';                     //SMTP username
-            $mail->Password   = 'Bhardwaj@subhchintak#77';                               //SMTP password
+            $mail->Password   = '';                               //SMTP password
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
             $mail->Port       = 465;                                      //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
